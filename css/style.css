@@ -676,7 +676,7 @@ section {
 
 .vr_develop_container {
   background-color: #1c1d1f;
-  max-width: 70%;
+  max-width: 60%;
   min-height: 600px; 
   display: -webkit-flex;
   display: -moz-flex;
@@ -710,7 +710,7 @@ section {
   font-size: 16px;
   font-family: 'Arial', sans-serif;
   line-height: 30px;
-  width: 50%;    
+  width: 60%;    
 }
 
 .slider_img img {
