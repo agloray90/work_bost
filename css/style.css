@@ -628,11 +628,9 @@ section {
   align-items: center;
 }
 
-
 .cars_foto_container {
   position: relative;
 }
-
 
 .cars_foto_container img:first-child {
   position: absolute;
@@ -658,7 +656,6 @@ section {
 
 /*----------------------start vr_development-------------------------------*/
 
-
 .vr_development {
   background-image: url(../img/bg_3.jpg);
   background-repeat: no-repeat;
@@ -674,7 +671,6 @@ section {
   -ms-align-items: center;
   align-items: center;
 }
-
 
 .vr_develop_container {
   background-color: #1c1d1f;
@@ -693,7 +689,6 @@ section {
   padding: 50px;
   margin-left: 70px;
 }
-
 
 .vr_develop_container h2 {
   color: #fff;
@@ -716,27 +711,26 @@ section {
 
 .slider_img img {
   max-width: 440px;
- }
-
-.slick-vertical .slick-slide {
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-    padding: 0 60px 0 0;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
-    flex-direction: row;
-    /*align-items: center;*/
-    outline: none;
 }
 
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+  padding: 0 60px 0 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  /*align-items: center;*/
+  outline: none;
+}
 
 button.slick-arrow {
   position: absolute;
@@ -758,7 +752,7 @@ button.slick-arrow:hover {
   color: #fff;
 }
 
-button.slick-arrow ~ button.slick-arrow{
+button.slick-arrow ~ button.slick-arrow {
   transform: translateY(85%);
 }
 
