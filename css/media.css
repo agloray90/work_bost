@@ -1,0 +1,404 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1500px) {
+	.lage_text {
+		max-width: 50%;
+	}
+	.solutions_container{
+		-ms-align-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.solutions_left {		
+		max-width: 100%;
+		text-align: center;
+		padding: 20px 10px;
+	}
+	.solutions_right {
+		width: 80%;
+		padding-top: 20px;
+			-ms-align-items: center;
+		align-items: center;    	
+    	margin-bottom: 20px;
+	}
+
+    .solutions_link {
+    	padding: 20px 0;   
+    } 
+	
+	 .link_container {
+    	display: -webkit-flex;
+    	display: -moz-flex;
+    	display: -ms-flex;
+    	display: -o-flex;
+    	display: flex;
+    	margin: 0 auto;
+    }
+    .link_doc_text {
+    	padding: 5px 20px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.contacts {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;		
+		flex-direction: column;
+	}
+	.contact_form {    
+    width: 100%;
+	}
+	.contact_form {
+		justify-content: center;
+	}
+	.informations {
+		text-align: center;
+	}
+	.info {
+	  padding: 10px 0;
+	}
+	.info_image {
+		padding-bottom: 20px;
+	}
+	.lage_text {
+    	max-width: 60%;
+	}
+	.services_text {
+    	justify-content: space-around;
+    }
+    .lange_text {
+		max-width:100%;
+		text-align: center;
+		margin: 10px auto 0;
+
+	}
+	.small_text {
+		text-align: center;
+	}
+	.service_text_bottom p {
+		text-align: center;
+		max-width: 100%;
+	}
+	 .lange_text {
+	 	max-width: 90%;		
+		text-align: center;				
+	}
+	.solutions_text_left { 
+    	width: 90%;
+    }
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header_menu ul {
+		display: none;
+		font-size: 15px;
+	}
+	.menu_links a {   
+		font-size: 12px;
+	}	
+	.menu_links-item {    
+		padding: 30px 18px;
+	}
+	.contact_form {
+		padding-top: 10px;
+	}
+	.contact {
+		padding: 10px 33px;
+	}
+	.info {
+	  padding: 15px 0;
+	}
+	.services {
+		padding: 15px;
+	}
+	
+	 .lange_text {
+	 	max-width: 90%;		
+		text-align: center;
+				
+	}
+	.service_text_bottom p {
+		text-align: center;
+		max-width: 100%;
+	}
+	.small_text {
+		padding-bottom: 10px;
+	}
+	.solutions_container { 		
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	  	justify-content: space-around;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.solutions_text_left {
+		line-height: normal;
+	
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.header_menu ul {
+		display: none;	
+	}
+
+	.menu_icon{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-left: 0px;
+	}
+
+	.menu_links {
+		position: fixed;
+		display: none;	
+		top: 55px;
+		right: 0;
+		left: 0;	   
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 1000;	  
+	}
+
+	.menu_links-item {
+		display: block;
+		padding: 20px 0;
+		text-align: center;
+		color: #fff;
+	}
+
+	.menu_r p {
+		margin: 0;
+		padding-right: 16px;
+	}
+	
+	.create_video a {			
+		margin: 0;
+	}
+
+	.create{
+		padding: 10px;
+		min-height: calc(100vh - 55px);
+	}
+
+	.create h1{
+		font-size: 25px;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.header_top {
+		padding: 10px;
+	}
+
+	.menu_icon{
+		order: 3;
+	}
+
+	.create_video{
+		width: auto;
+		padding-left: 0;
+		margin: 0 auto;
+	}
+	
+	.contacts {    
+    	padding-top: 10px;
+	}
+
+	.contact_form {		
+    	width: 100%;
+	}
+
+	.contact_us {
+		width: 50%;
+		padding: 0 5px;
+	}
+
+	.contact_us h2 {
+		font-size: 40px;
+	}
+
+	.informations_title {
+    padding: 10px 0;
+	}
+
+	.info {
+	  padding: 10px 0;
+	}
+
+	.informations_title h2 {
+		font-size: 40px;
+	}
+
+	.lange_text {
+		font-size: 30px;
+		line-height: normal;
+		max-width: max-content;
+	}
+
+	.solutions_container {
+		padding: 0 10px;
+	}
+
+	.solutions_text_left {
+		padding: 20px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.solutions_right_text {
+		width: 90%;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.solutions_link {
+		padding-bottom: 20px;
+	}
+
+	.solutions_list {
+		margin-left: 0;
+	}
+
+	.solutions_list li {
+		font-size: 16px;
+	}
+}
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.menu_l,
+	.menu_r {
+		font-size: 14px;
+	}
+
+	.menu_r img {
+		width: 42%;
+		margin-right: 10px;
+	}
+
+	.menu_contact img {	
+		height: 15px;
+	}
+
+	.button_contact {
+		font-size: 14px;
+		border-radius: 12px;
+		padding: 6px 25px;		
+	}
+
+	.langv {
+		padding-right: 5px;
+		padding-left: 0;
+	}
+
+	.langv span{
+		display: none;
+	}
+
+	.logo{
+		text-align: center;
+	}
+
+	.logo img{
+		max-width: 80%;
+	}
+
+	.menu_contact{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-ms-align-items: center;
+		align-items: center;
+		padding: 0 5px;
+	}
+
+	.contact {
+	    padding: 10px 15px;
+	}
+
+	.contacts {		
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;	
+	}
+
+	.contact_us {
+		padding: 0 10px;
+    	min-width: 100%;	
+	}
+
+	.foto_bg_left {
+    	width: 100%;
+    	min-height: 500px;
+	}
+
+	.contact_us h2 {
+		padding-top: 15px;
+		padding-left: 10px;
+	}
+
+	.contact_us h3 {
+		padding-left: 10px;
+	}
+
+	.contact_form {
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	min-width: 100%;    	
+	}
+
+	.contact_mess {
+		width: 100%;
+	}
+
+	.button_imputs {
+		padding-right: 10px;
+    	padding-bottom: 30px;
+	}
+	.contact_us h2, .informations h2 {    
+    font-size: 35px;
+	}
+
+    .informations {
+		padding-left: 20px;
+	}
+	.services {
+		padding: 0 10px;
+	}
+
+	.lange_text {
+		font-size: 25px;
+		line-height: 25px;
+		max-width: 100%;
+	}
+	.service_text_bottom p {
+    	font-size: 16px;
+    	line-height: normal;
+    	max-width: 100%;
+	}
+	.small_text {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+}
