@@ -733,7 +733,6 @@ button.slick-arrow {
 	background: transparent;
 	border: none;  
 	right: 0%;
-	/*top: 50%;*/
 	top: 30%;
 	z-index: 1;
 	opacity:.5;  
