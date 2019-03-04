@@ -687,7 +687,7 @@ section {
 	-o-flex-direction: column;
 	flex-direction: column;	
 	margin-left: 100px;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .vr_develop_container h2 {
@@ -716,14 +716,14 @@ section {
 .slick-vertical .slick-slide {
 	display: block;
 	height: auto;
-	border: 1px solid transparent;
-	padding: 0 60px 0 0;
+	border: 1px solid transparent;	
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	outline: none;
+	padding-bottom: 30px;
 }
 
 .slick-list {
@@ -748,7 +748,7 @@ button.slick-arrow:focus {
 }
 
 button.slick-arrow:hover {
-	opacity: 5.5;
+	opacity: 1.5; 
 
 }
 

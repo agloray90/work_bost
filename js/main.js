@@ -12,8 +12,21 @@
 			adaptiveHeight: true, 			    
 			nextArrow: '<button><img src="./img/down.png"></button>',			
 			prevArrow: '<button><img src="./img/up.png"></button>',
-			//      up1.png     
-		});
+			responsive: [
+			{
+				breakpoint: 992,
+
+				settings: {
+					vertical: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					nextArrow: '<button><img src="./img/left.png"></button>',			
+					prevArrow: '<button><img src="./img/right.png"></button>',
+					
+				}
+			}			
+			]  
+});
 	});  
 })(jQuery);
 
