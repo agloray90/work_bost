@@ -675,7 +675,7 @@ section {
 .vr_develop_container {
 	background-color: #1c1d1f;
 	max-width: 60%;
-	min-height: 600px; 
+	min-height: 500px; 
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
