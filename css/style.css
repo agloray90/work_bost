@@ -685,8 +685,7 @@ section {
 	-moz-flex-direction: column;
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
-	flex-direction: column;
-	padding: 0 50px;
+	flex-direction: column;	
 	margin-left: 100px;
 	justify-content: space-around;
 }
@@ -727,11 +726,15 @@ section {
 	outline: none;
 }
 
+.slick-list {
+	margin-left: -50px;
+}
+
 button.slick-arrow {
 	position: absolute;
 	background: transparent;
 	border: none;  
-	right: 0%;
+	right: 10%;
 	top: 30%;
 	z-index: 1;
 	opacity:.5;  
