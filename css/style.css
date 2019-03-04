@@ -658,7 +658,6 @@ section {
 
 .vr_development {
 	background-image: url(../img/bg_3.jpg);
-	/*background-repeat: no-repeat;*/
 	background-repeat: repeat-y;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -687,16 +686,16 @@ section {
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	padding: 50px;
-	margin-left: 70px;
+	padding: 0 50px;
+	margin-left: 100px;
 	justify-content: space-around;
 }
 
 .vr_develop_container h2 {
 	color: #fff;
 	font-size: 42px;
-	font-family: 'Arial', sans-serif;
-	margin-bottom: 30px;  
+	font-family: 'Arial', sans-serif;	
+	padding-left: 50px;  
 }
 
 .slider_text { 
@@ -747,6 +746,7 @@ button.slick-arrow:focus {
 
 button.slick-arrow:hover {
 	opacity: 5.5;
+
 }
 
 button.slick-arrow ~ button.slick-arrow {

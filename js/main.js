@@ -10,8 +10,9 @@
 			dots: false,
 			vertical:true,
 			adaptiveHeight: true, 			    
-			nextArrow: '<button><img src="./img/down.png"></button>',
-			prevArrow: '<button><img src="./img/up.png"></button>',     
+			nextArrow: '<button><img src="./img/down.png"></button>',			
+			prevArrow: '<button><img src="./img/up.png"></button>',
+			//      up1.png     
 		});
 	});  
 })(jQuery);

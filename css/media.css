@@ -185,6 +185,11 @@
 		margin: 0;
 		padding-right: 16px;
 	}
+
+	.menu_bottom {
+		justify-content: center;
+}
+	}
 	
 	.create_video a {			
 		margin: 0;
