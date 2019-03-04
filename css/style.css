@@ -658,7 +658,8 @@ section {
 
 .vr_development {
 	background-image: url(../img/bg_3.jpg);
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 0 -150px;
@@ -732,7 +733,8 @@ button.slick-arrow {
 	background: transparent;
 	border: none;  
 	right: 0%;
-	top: 50%;
+	/*top: 50%;*/
+	top: 30%;
 	z-index: 1;
 	opacity:.5;  
 	transform: translateY(-85%);
