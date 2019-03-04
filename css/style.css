@@ -745,7 +745,7 @@ button.slick-arrow:focus {
 }
 
 button.slick-arrow:hover {
-	color: #fff;
+	opacity: 5.5;
 }
 
 button.slick-arrow ~ button.slick-arrow {
