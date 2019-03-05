@@ -190,8 +190,8 @@
 	
 	.slick-list {
 		margin-left: 0;
-	}
-	
+	}	
+
 
 	button.slick-arrow.arrow_prev:before {
 		transform: rotate(270deg);
@@ -209,7 +209,7 @@
 
 	button.slick-arrow.arrow_next {  
     	top: auto;    
-    	left: 40%;
+    	left: 35%;
     	bottom: 0%
 	}
 	
@@ -359,7 +359,7 @@
 	.cars_foto_container img:nth-child(2),
 	.cars_foto_container img:nth-child(3) {
 		position: initial;
-	/*} cделала, чтобы увидеть куда уезжает фон*/
+	/* cделала, чтобы увидеть куда уезжает фон*/
 	}
 
 	
