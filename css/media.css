@@ -364,12 +364,11 @@
 
 	
 	.slider_img img {
-    max-width: 100%;
+    	max-width: 100%;
 	}
 
 	.vr_develop_container {
-    	max-width: 100%;
-    	margin: 0 auto;
+    	max-width: 100%;    	
     }
 
 
@@ -505,7 +504,7 @@
 	.vr_develop_container h2 {	 
 	    font-size: 35px;
 	}
-	 
+
 	button.slick-arrow.arrow_prev {      	
     	left: 55%;
     	
