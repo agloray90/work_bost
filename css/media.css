@@ -39,7 +39,7 @@
     }
 
     .vr_development {
-		background-image: none;
+		background-image: transparent;
 		background-color: #101010;
     }
 
@@ -169,8 +169,7 @@
 		line-height: normal;
 	}
 
-	.vr_develop_container {
-		background-color: none;
+	.vr_develop_container {		
 		min-height: 650px;
 	}
 
@@ -186,18 +185,13 @@
 	.slider_text p {		
 		padding: 10px;
 		margin: 0 auto;
+		width: 100%;
 	}
-
+	
 	.slick-list {
 		margin-left: 0;
 	}
 	
-	button.slick-arrow {    	
-    	top: 50%;
-    	bottom: 41%;
-    }
-
-
 
 	button.slick-arrow.arrow_prev:before {
 		transform: rotate(270deg);
@@ -207,15 +201,18 @@
 		transform: rotate(-270deg); 
 	}
 
-	button.slick-arrow.arrow_next {    
-    	top: 100%;
-    	left: 20%;
+	button.slick-arrow.arrow_prev {    
+    	top: auto; 
+    	left: 55%;
+    	bottom: 0%
 	}
 
-	button.slick-arrow.arrow_prev {  
-    	top: 100%;    
-    	right: 40%;
+	button.slick-arrow.arrow_next {  
+    	top: auto;    
+    	left: 40%;
+    	bottom: 0%
 	}
+	
 }
 
 
@@ -257,8 +254,7 @@
 		padding-right: 16px;
 	}
 
-	.menu_bottom {
-		/*justify-content: center;*/
+	.menu_bottom {		
 		flex-direction: column;
     	align-items: center
 	}
@@ -366,12 +362,15 @@
 	/*} cделала, чтобы увидеть куда уезжает фон*/
 	}
 
-	.slider_text p {		
-    	width: 100%; 
-	}
+	
 	.slider_img img {
     max-width: 100%;
 	}
+
+	.vr_develop_container {
+    	max-width: 100%;
+    	margin: 0 auto;
+    }
 
 
 }
@@ -502,6 +501,18 @@
 	.small_text {
 		text-align: center;
 		padding-bottom: 10px;
+	}
+
+		button.slick-arrow.arrow_prev {    
+    	top: auto; 
+    	left: 55%;
+    	bottom: 0%
+	}
+
+	button.slick-arrow.arrow_next {  
+    	top: auto;    
+    	left: 20%;
+    	bottom: 0%
 	}
 
 }

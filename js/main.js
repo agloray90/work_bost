@@ -11,7 +11,7 @@
 			vertical:true,
 			adaptiveHeight: true,		
 			prevArrow: "<button class=\"arrow_prev\"></button>",
-			nextArrow: "<button class=\"arrow_next\"></button>",
+			nextArrow: "<button class=\"arrow_next\"></button>",			
 			responsive: [
 			{
 				breakpoint: 992,
