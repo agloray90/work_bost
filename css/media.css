@@ -245,8 +245,20 @@
 
 	.menu_bottom {
 		justify-content: center;
-
+		flex-direction: column;
+    	align-items: center
 	}
+
+	.str_down img{
+		display: block;
+		padding-top: 20px;
+	}
+
+	.menu_r a:hover p{
+		padding-right: 0;		
+	}
+
+
 	
 	.create_video a {			
 		margin: 0;
@@ -353,6 +365,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	
+
 	.menu_l,
 	.menu_r {
 		font-size: 14px;
@@ -363,10 +377,10 @@
 	}
 
 	.menu_r img {
-		width: 42%;
+		display: none;
 		margin-right: 10px;
 	}
-
+	
 	.menu_contact img {	
 		height: 15px;
 	}
