@@ -355,6 +355,11 @@
 	.slider_text p {		
     	width: 100%; 
 	}
+	.slider_img img {
+    max-width: 100%;
+	}
+
+	
 }
 	
 
