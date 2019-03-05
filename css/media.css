@@ -244,7 +244,7 @@
 	}
 
 	.menu_bottom {
-		justify-content: center;
+		/*justify-content: center;*/
 		flex-direction: column;
     	align-items: center
 	}
@@ -253,20 +253,13 @@
 		display: block;
 		padding-top: 20px;
 	}
-
-	.menu_r a:hover p{
-		padding-right: 0;		
-	}
-
-
 	
 	.create_video a {			
 		margin: 0;
 	}
 
-	.create{
-		/*padding: 10px;*/
-		min-height: calc(100vh - 55px);
+	.create{		
+		min-height: calc(100vh - 60px);
 	}
 
 	.create h1{
