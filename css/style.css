@@ -722,8 +722,11 @@ section {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	outline: none;
 	padding-bottom: 30px;
+}
+
+.slide.slick-slide.slick-current:focus {
+    outline: none;
 }
 
 .slick-list {
