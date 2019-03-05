@@ -19,10 +19,7 @@
 				settings: {
 					vertical: false,
 					slidesToShow: 1,
-					slidesToScroll: 1,
-					// nextArrow: '<button><img src="./img/left.png"></button>',			
-					// prevArrow: '<button><img src="./img/right.png"></button>',
-					
+					slidesToScroll: 1,				
 				}
 			}			
 			]  

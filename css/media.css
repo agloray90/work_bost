@@ -192,15 +192,29 @@
 		margin-left: 0;
 	}
 	
-	button.slick-arrow {
-    	right: 45%;
-    	top: 100%;
-    	transform: translateX(50%);
+	button.slick-arrow {    	
+    	top: 50%;
+    	bottom: 41%;
+    }
 
+
+
+	button.slick-arrow.arrow_prev:before {
+		transform: rotate(270deg);
 	}
 
-	button.slick-arrow ~ button.slick-arrow {
-		transform: translate(-50%);
+	button.slick-arrow.arrow_next:before {
+		transform: rotate(-270deg); 
+	}
+
+	button.slick-arrow.arrow_next {    
+    	top: 100%;
+    	left: 20%;
+	}
+
+	button.slick-arrow.arrow_prev {  
+    	top: 100%;    
+    	right: 40%;
 	}
 }
 
@@ -359,7 +373,7 @@
     max-width: 100%;
 	}
 
-	
+
 }
 	
 

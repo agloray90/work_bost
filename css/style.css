@@ -741,7 +741,7 @@ button.slick-arrow {
 	background: transparent;
 	border: none;  
 	right: 10%;
-	/*top: 30%;*/
+	top: 15%;
 	z-index: 1;
 	opacity:.5;
 	transition: all 0.3s linear;
@@ -757,8 +757,13 @@ button.slick-arrow:before {
 }
 
 
-button.arrow_prev.slick-arrow {
-	transform: rotate(180deg)
+button.slick-arrow.arrow_next {
+	bottom: 45%;
+	top: auto;
+}
+
+button.slick-arrow.arrow_prev:before {
+	transform: rotate(180deg); 
 }
 
 
