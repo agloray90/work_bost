@@ -350,9 +350,11 @@
 	.cars_foto_container img:nth-child(3) {
 		position: initial;
 	/*} cделала, чтобы увидеть куда уезжает фон*/
+	}
 
-
-
+	.slider_text p {		
+    	width: 100%; 
+	}
 }
 	
 
