@@ -9,9 +9,9 @@
 			arrows: true,      
 			dots: false,
 			vertical:true,
-			adaptiveHeight: true, 			    
-			nextArrow: '<button><img src="./img/down.png"></button>',			
-			prevArrow: '<button><img src="./img/up.png"></button>',
+			adaptiveHeight: true,		
+			prevArrow: "<button class=\"arrow_prev\"></button>",
+			nextArrow: "<button class=\"arrow_next\"></button>",
 			responsive: [
 			{
 				breakpoint: 992,
@@ -20,8 +20,8 @@
 					vertical: false,
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					nextArrow: '<button><img src="./img/left.png"></button>',			
-					prevArrow: '<button><img src="./img/right.png"></button>',
+					// nextArrow: '<button><img src="./img/left.png"></button>',			
+					// prevArrow: '<button><img src="./img/right.png"></button>',
 					
 				}
 			}			

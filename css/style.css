@@ -741,13 +741,26 @@ button.slick-arrow {
 	background: transparent;
 	border: none;  
 	right: 10%;
-	top: 30%;
+	/*top: 30%;*/
 	z-index: 1;
-	opacity:.5;  
-	transform: translateY(-85%);
+	opacity:.5;
 	transition: all 0.3s linear;
 	cursor: pointer; 
 }
+
+button.slick-arrow:before {
+	content: "";
+	position: absolute;
+	height: 52px;
+	width: 52px;
+	background-image: url(../img/arrow.png);
+}
+
+
+button.arrow_prev.slick-arrow {
+	transform: rotate(180deg)
+}
+
 
 button.slick-arrow:focus {
 	outline: none;
@@ -756,10 +769,6 @@ button.slick-arrow:focus {
 button.slick-arrow:hover {
 	opacity: 1; 
 
-}
-
-button.slick-arrow ~ button.slick-arrow {
-	transform: translateY(85%);
 }
 
 
