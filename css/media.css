@@ -502,17 +502,19 @@
 		text-align: center;
 		padding-bottom: 10px;
 	}
-
-		button.slick-arrow.arrow_prev {    
-    	top: auto; 
+	.vr_develop_container h2 {	 
+	    font-size: 35px;
+	}
+	 
+	button.slick-arrow.arrow_prev {      	
     	left: 55%;
-    	bottom: 0%
+    	
 	}
 
-	button.slick-arrow.arrow_next {  
-    	top: auto;    
+	button.slick-arrow.arrow_next {     
     	left: 20%;
-    	bottom: 0%
+    	
 	}
+
 
 }
