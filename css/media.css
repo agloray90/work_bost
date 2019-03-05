@@ -106,9 +106,14 @@
 	.solutions_text_left { 
     	width: 90%;
     }
-
-  	
-	
+	  	
+	.solutions_cars_right {
+		width: 100%;
+		align-items: center;
+	}
+	.solutions_right_text {
+		text-align: center;
+	}
 }
 
 
@@ -333,7 +338,15 @@
 
 	.solutions_list li {
 		font-size: 16px;
-	}	
+	}
+
+	.cars_foto_container img:first-child,
+	.cars_foto_container img:nth-child(2),
+	.cars_foto_container img:nth-child(3) {
+		position: initial;
+	/*} cделала, чтобы увидеть куда уезжает фон*/
+
+
 
 }
 	
