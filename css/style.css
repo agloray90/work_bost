@@ -582,7 +582,6 @@ section {
 	display: -o-flex;
 	display: flex;
 }
-
 .link_container a {
 	background-color: #1c1d1f;
 	display: -webkit-flex;
