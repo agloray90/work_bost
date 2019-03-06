@@ -275,8 +275,8 @@
 	}
 
 	.menu_right_create span {
-		margin: 0;
-		padding-right: 16px;
+		/*padding-left: 30px;*/
+		padding-bottom: 30px;
 	}
 
 	.menu_bottom_create {		
@@ -414,8 +414,12 @@
 	}
 
 	.menu_right_create img {
-		display: none;
-		margin-right: 10px;
+		position: absolute;
+		transform: rotate(90deg); 
+		left: 43%;
+    	top: auto;
+    	bottom: 5%;
+}
 	}
 	
 	.menu_contact img {	
