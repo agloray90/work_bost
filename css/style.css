@@ -149,7 +149,7 @@ section {
 	font-family: 'Arial', sans-serif;
 }
 
-.menu_bottom  {
+.menu_bottom_create  {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -162,7 +162,7 @@ section {
 	display: none;
 }
 
-.menu_l {
+.menu_left_create {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -170,13 +170,13 @@ section {
 	display: flex;
 }
 
-.menu_l a{
+.menu_left_create a{
 	padding-left: 20px;
 	color: #fff;
 	font-size: 16px;  
 }
 
-.menu_r a{
+.menu_right_create a{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -190,12 +190,12 @@ section {
 	color: #fff;
 	font-size: 16px;
 }
-.menu_r a:hover p{
+.menu_right_create a:hover span{
 	padding-right: 10px;
 }
 
 
-.menu_r p {
+.menu_right_create span {
 	transition: all .5s;
 	margin-right: 20px;
 }

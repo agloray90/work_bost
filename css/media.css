@@ -3,7 +3,8 @@
 	.lage_text {
 		max-width: 50%;
 	}
-	.solutions_container{
+
+	.solutions_container {
 		-ms-align-items: center;
 		align-items: center;
 		flex-direction: column;
@@ -14,6 +15,7 @@
 		text-align: center;
 		padding: 20px 10px;
 	}
+
 	.solutions_right {
 		width: 80%;
 		padding-top: 20px;
@@ -34,6 +36,7 @@
     	display: flex;
     	margin: 0 auto;
     }
+
     .link_doc_text {
     	padding: 5px 20px;
     }
@@ -51,6 +54,7 @@
     .slider_text p {    	
     	padding: 20px 0px;
     }
+
     .slider_img img {  
     	margin: 0 auto;
 	}
@@ -65,44 +69,55 @@
 		-o-flex-direction: column;		
 		flex-direction: column;
 	}
+
 	.contact_form {    
     width: 100%;
 	}
+
 	.contact_form {
 		justify-content: center;
 	}
+
 	.informations {
 		text-align: center;
 	}
+
 	.info {
 	  padding: 10px 0;
 	}
+
 	.info_image {
 		padding-bottom: 20px;
 	}
+
 	.lage_text {
     	max-width: 60%;
 	}
+
 	.services_text {
     	justify-content: space-around;
     }
+
     .lange_text {
 		max-width:100%;
 		text-align: center;
 		margin: 10px auto 0;
-
 	}
+
 	.small_text {
 		text-align: center;
 	}
+
 	.service_text_bottom p {
 		text-align: center;
 		max-width: 100%;
 	}
+
 	 .lange_text {
 	 	max-width: 90%;		
 		text-align: center;				
 	}
+
 	.solutions_text_left { 
     	width: 90%;
     }
@@ -111,6 +126,7 @@
 		width: 100%;
 		align-items: center;
 	}
+
 	.solutions_right_text {
 		text-align: center;
 	}
@@ -123,21 +139,27 @@
 		display: none;
 		font-size: 15px;
 	}
+
 	.menu_links a {   
 		font-size: 12px;
 	}	
+
 	.menu_links-item {    
 		padding: 30px 18px;
 	}
+
 	.contact_form {
 		padding-top: 10px;
 	}
+
 	.contact {
 		padding: 10px 33px;
 	}
+
 	.info {
 	  padding: 15px 0;
 	}
+
 	.services {
 		padding: 15px;
 	}
@@ -147,13 +169,16 @@
 		text-align: center;
 				
 	}
+
 	.service_text_bottom p {
 		text-align: center;
 		max-width: 100%;
 	}
+
 	.small_text {
 		padding-bottom: 10px;
 	}
+
 	.solutions_container { 		
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
@@ -223,7 +248,7 @@
 		display: none;	
 	}
 
-	.menu_icon{
+	.menu_icon {
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -249,17 +274,17 @@
 		color: #fff;
 	}
 
-	.menu_r p {
+	.menu_right_create span {
 		margin: 0;
 		padding-right: 16px;
 	}
 
-	.menu_bottom {		
+	.menu_bottom_create {		
 		flex-direction: column;
     	align-items: center
 	}
 
-	.str_down img{
+	.str_down img {
 		display: block;
 		padding-top: 20px;
 	}
@@ -268,11 +293,11 @@
 		margin: 0;
 	}
 
-	.create{		
+	.create {		
 		min-height: calc(100vh - 60px);
 	}
 
-	.create h1{
+	.create h1 {
 		font-size: 25px;
 		text-align: center;
 		padding-left: 0;
@@ -282,11 +307,11 @@
 		padding: 10px;
 	}
 
-	.menu_icon{
+	.menu_icon {
 		order: 3;
 	}
 
-	.create_video{
+	.create_video {
 		width: auto;
 		padding-left: 0;
 		margin: 0 auto;
@@ -379,16 +404,16 @@
 @media only screen and (max-width : 480px) {
 	
 
-	.menu_l,
-	.menu_r {
+	.menu_left_create,
+	.menu_right_create {
 		font-size: 14px;
 	}
 
-	.menu_l {
+	.menu_left_create {
 		display: none;
 	}
 
-	.menu_r img {
+	.menu_right_create img {
 		display: none;
 		margin-right: 10px;
 	}
@@ -408,19 +433,19 @@
 		padding-left: 0;
 	}
 
-	.langv span{
+	.langv span {
 		display: none;
 	}
 
-	.logo{
+	.logo {
 		text-align: center;
 	}
 
-	.logo img{
+	.logo img {
 		max-width: 80%;
 	}
 
-	.menu_contact{
+	.menu_contact {
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -476,6 +501,7 @@
 		padding-right: 10px;
     	padding-bottom: 30px;
 	}
+
 	.contact_us h2, .informations h2 {    
     font-size: 35px;
 	}
@@ -483,6 +509,7 @@
     .informations {
 		padding-left: 20px;
 	}
+
 	.services {
 		padding: 0 10px;
 	}
@@ -492,27 +519,28 @@
 		line-height: 25px;
 		max-width: 100%;
 	}
+
 	.service_text_bottom p {
     	font-size: 16px;
     	line-height: normal;
     	max-width: 100%;
 	}
+
 	.small_text {
 		text-align: center;
 		padding-bottom: 10px;
 	}
+
 	.vr_develop_container h2 {	 
 	    font-size: 35px;
 	}
 
 	button.slick-arrow.arrow_prev {      	
-    	left: 55%;
-    	
+    	left: 55%;    	
 	}
 
-	button.slick-arrow.arrow_next {     
-    	left: 20%;
-    	
+	button.slick-arrow.arrow_next {  
+	    	left: 20%;    	
 	}
 
 
