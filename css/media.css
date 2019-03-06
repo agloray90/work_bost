@@ -272,22 +272,14 @@
 		padding: 20px 0;
 		text-align: center;
 		color: #fff;
-	}
-
-	.menu_right_create span {
-		/*padding-left: 30px;*/
-		padding-bottom: 30px;
-	}
+	}	
 
 	.menu_bottom_create {		
-		flex-direction: column;
+		/*flex-direction: column;*/
     	align-items: center
 	}
 
-	.str_down img {
-		display: block;
-		padding-top: 20px;
-	}
+
 	
 	.create_video a {			
 		margin: 0;
@@ -419,6 +411,14 @@
 		left: 43%;
     	top: auto;
     	bottom: 5%;
+
+	}
+
+	.menu_right_create span {		
+		padding-bottom: 30px;
+   		position: absolute;    
+    	bottom: 10%;
+    	left: 35%;
 }
 	}
 	
