@@ -201,11 +201,11 @@ section {
 }
 
 .menu_icon {
- display: none;
- width: 45px;
- height: 35px;
- position: relative;
- cursor: pointer;
+	display: none;
+	width: 45px;
+	height: 35px;
+	position: relative;
+	cursor: pointer;
 }
 
 .menu_icon span {
@@ -582,6 +582,7 @@ section {
 	display: -o-flex;
 	display: flex;
 }
+
 .link_container a {
 	background-color: #1c1d1f;
 	display: -webkit-flex;
