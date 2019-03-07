@@ -135,7 +135,51 @@
 	.vr_development {
 	    background-size: auto;
 	    background-position: right;
-}
+	}
+
+	.vr_develop_container {		
+		padding: 60px 0;
+	}
+
+	.vr_develop_container h2 {
+		padding-left: 0;
+		margin: 0 auto;
+	}
+
+	.slider_text {
+		padding-left: 0;
+		text-align: center;
+	}
+	.slider_text p {		
+		padding: 10px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.slick-list {
+		margin-left: 0;
+	}	
+
+
+	button.slick-arrow.arrow_prev:before {
+		transform: rotate(90deg);
+	}
+
+	button.slick-arrow.arrow_next:before {
+		transform: rotate(-90deg); 
+	}
+
+	button.slick-arrow.arrow_prev {    
+    	top: auto; 
+    	left: 30%;
+    	bottom: 0%
+	}
+
+	button.slick-arrow.arrow_next {  
+    	top: auto;    
+    	left: 60%;
+    	bottom: 0%
+	}
 	
 }
 
@@ -200,29 +244,6 @@
 	.solutions_text_left {
 		line-height: normal;
 	}
-
-	.vr_develop_container {		
-		
-	}
-
-	.vr_develop_container h2 {
-		padding-left: 0;
-		margin: 0 auto;
-	}
-
-	.slider_text {
-		padding-left: 0;
-		text-align: center;
-	}
-	.slider_text p {		
-		padding: 10px;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.slick-list {
-		margin-left: 0;
-	}	
 
 
 	button.slick-arrow.arrow_prev:before {
@@ -392,7 +413,7 @@
 	}
 
 	.vr_develop_container {
-    	max-width: 100%;    	
+    	/*max-width: 100%; */   	
     }
 
 

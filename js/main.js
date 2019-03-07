@@ -14,7 +14,7 @@
 			nextArrow: "<button class=\"arrow_next\"></button>",			
 			responsive: [
 			{
-				breakpoint: 992,
+				breakpoint: 1200,
 
 				settings: {
 					vertical: false,

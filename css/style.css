@@ -693,7 +693,7 @@ section {
 .vr_develop_container {
 	background-color: #1c1d1f;
 	max-width: 60%;
-	padding: 60px 0;
+	padding: 50px 0;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
