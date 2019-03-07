@@ -505,8 +505,7 @@ section {
 	line-height: 45px;
 }
 
-.solutions_right,
-.solutions_cars_right {
+.solutions_right {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
