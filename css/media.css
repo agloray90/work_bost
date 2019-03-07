@@ -41,14 +41,16 @@
     	padding: 5px 20px;
     }
 
-    .vr_development {
-		background-image: transparent;
+	.vr_development{
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: right;
 		background-color: #101010;
-    }
+	}
 
     .vr_develop_container {
-    	max-width: 85%;
-    	margin: 0 auto;
+    	max-width: 65%;
+    	
     }
 
     .slider_text p {    	
@@ -130,6 +132,11 @@
 	.solutions_right_text {
 		text-align: center;
 	}
+	.vr_development {
+	    background-size: auto;
+	    background-position: right;
+}
+	
 }
 
 
@@ -195,7 +202,7 @@
 	}
 
 	.vr_develop_container {		
-		min-height: 650px;
+		
 	}
 
 	.vr_develop_container h2 {
@@ -507,7 +514,7 @@
 	}
 
 	.contact_us h2, .informations h2 {    
-    font-size: 35px;
+    	font-size: 35px;
 	}
 
     .informations {

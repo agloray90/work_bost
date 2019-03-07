@@ -480,7 +480,7 @@ section {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .solutions_left {
@@ -631,30 +631,45 @@ section {
 	align-items: center;
 }
 
+.solutions_cars_container {	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.solutions_cars_right {
+	margin-left: 0;
+}
+
 .cars_foto_container {
 	position: relative;
 }
 
 .cars_foto_container img:first-child {
-	position: absolute;
-	top: -10%;
+	/*position: absolute;*/
+	top: -20%;
 	left: 5%;
 	z-index: 1;
 }
 
 .cars_foto_container img:nth-child(2) {
 	position: absolute;
-	top: 28%;
-	left: 58%;
+	top: 15%;
+	left: -30%;
 	z-index: 2;
 }
 
 
 .cars_foto_container img:nth-child(3) {
-	position: relative;
-	top: 70%;
-	left: 5%;
-	z-index: 2;
+    position: absolute;
+    top: 80%;
+    left: -70%;
+    z-index: 2;
+
 }
 
 /*----------------------start vr_development-------------------------------*/
@@ -678,7 +693,7 @@ section {
 .vr_develop_container {
 	background-color: #1c1d1f;
 	max-width: 60%;
-	min-height: 500px; 
+	padding: 60px 0;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -697,7 +712,8 @@ section {
 	color: #fff;
 	font-size: 42px;
 	font-family: 'Arial', sans-serif;	
-	padding-left: 50px;  
+	padding-left: 50px;
+	margin-bottom: 30px;  
 }
 
 .slider_text { 
