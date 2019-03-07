@@ -256,7 +256,7 @@
 
 	button.slick-arrow.arrow_prev {    
     	top: auto; 
-    	left: 30%;
+    	left: 25%;
     	bottom: 0%
 	}
 
@@ -415,6 +415,9 @@
 	.vr_develop_container {
     	/*max-width: 100%; */   	
     }
+	.vr_develop_container h2 {	 
+	    font-size: 35px;
+	}
 
 
 }
@@ -562,10 +565,10 @@
 		text-align: center;
 		padding-bottom: 10px;
 	}
-
 	.vr_develop_container h2 {	 
-	    font-size: 35px;
+	    font-size: 32px;
 	}
 
+	
 
 }
