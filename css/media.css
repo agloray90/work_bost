@@ -61,6 +61,11 @@
 	}
 	.solutions_cars_container {
 		width: 75%;
+		padding-left: 40px;
+	}
+
+	.solutions_right_text {
+		width: 60%;
 	}
 	.cars_foto_container {
 		width: 50%;	
@@ -78,6 +83,7 @@
 		top: 75%;
 		left: -35%;		
 	}
+
 
 }
 
