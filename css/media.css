@@ -309,7 +309,7 @@
     	left: 60%;
     	bottom: 0%
 	}
-	
+
 	.solutions_cars {
 		display: block;
 	}
@@ -488,7 +488,11 @@
 	.vr_develop_container h2 {	 
 	    font-size: 35px;
 	}
-
+	
+	.cars_foto_container img:nth-child(3) {
+    top: 45%;
+    left: -25%;
+	}
 
 }
 	
