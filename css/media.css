@@ -378,8 +378,6 @@
 	.menu_bottom_create {	
     	align-items: center
 	}
-
-
 	
 	.create_video a {			
 		margin: 0;
@@ -488,12 +486,6 @@
 	.vr_develop_container h2 {	 
 		font-size: 35px;
 	}
-	
-/*	.cars_foto_container img:nth-child(3) {
-    	top: 45%;
-    	left: -25%;
-	}
-	*/
 
 }
 	
@@ -645,9 +637,9 @@
 	}
 	
 	button.slick-arrow.arrow_prev {
-    top: auto;
-    left: 10%;
-    bottom: 0%;
+    	top: auto;
+    	left: 10%;
+    	bottom: 0%;
 	}
 
 	.cars_foto_container {
@@ -679,7 +671,7 @@
 	}
 
 	.link_doc_text {
-    padding: 5px 10px;
+    	padding: 5px 10px;
 	}
 
 }
