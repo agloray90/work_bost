@@ -667,7 +667,7 @@ section {
 .cars_foto_container img:nth-child(3) {
 	position: absolute;
 	top: 80%;
-	left: -34%;
+	left: -35%;
 	z-index: 2;
 }
 

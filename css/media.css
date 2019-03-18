@@ -180,7 +180,25 @@
     	left: 60%;
     	bottom: 0%
 	}
-	
+	.cars_foto_container {
+		width: 50%;
+		padding-left: 10px;
+	}
+
+	.cars_foto_container img:first-child {	
+		top: -35%;	
+	}
+	.cars_foto_container img:nth-child(2) {	
+		top: 15%;
+		left: -5%;	
+	}
+
+	.cars_foto_container img:nth-child(3) {
+		top: 65%;
+		left: -35%;
+		z-index: 2;
+	}
+
 }
 
 
@@ -566,7 +584,11 @@
 	.vr_develop_container h2 {	 
 	    font-size: 32px;
 	}
-
 	
+	button.slick-arrow.arrow_prev {
+    top: auto;
+    left: 10%;
+    bottom: 0%;
+	}
 
 }
