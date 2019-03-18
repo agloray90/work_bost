@@ -646,29 +646,29 @@ section {
 
 .cars_foto_container {
 	position: relative;
+	width: 30%;
 }
 
 .cars_foto_container img:first-child {
-	/*position: absolute;*/
-	top: -20%;
-	left: 5%;
+	position: absolute;
+	top: -40%;
+	left: -35%;
 	z-index: 1;
 }
 
 .cars_foto_container img:nth-child(2) {
 	position: absolute;
 	top: 15%;
-	left: -30%;
+	left: 20%;
 	z-index: 2;
 }
 
 
 .cars_foto_container img:nth-child(3) {
-    position: absolute;
-    top: 80%;
-    left: -70%;
-    z-index: 2;
-
+	position: absolute;
+	top: 80%;
+	left: -34%;
+	z-index: 2;
 }
 
 /*----------------------start vr_development---------------------------*/
@@ -790,6 +790,7 @@ button.slick-arrow:hover {
 	opacity: 1; 
 
 }
+
 
 
 
