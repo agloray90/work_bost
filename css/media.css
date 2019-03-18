@@ -309,13 +309,16 @@
     	left: 60%;
     	bottom: 0%
 	}
+	
 	.solutions_cars {
 		display: block;
 	}
+
 	.solutions_cars_container {
 		flex-direction: column;
 		margin: 0 auto;
 	}
+
 	.cars_foto_container {
 		width: 70%;
 		height: 500px;
