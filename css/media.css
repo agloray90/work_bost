@@ -49,8 +49,7 @@
 	}
 
     .vr_develop_container {
-    	max-width: 65%;
-    	
+    	max-width: 65%;    	
     }
 
     .slider_text p {    	
@@ -60,6 +59,26 @@
     .slider_img img {  
     	margin: 0 auto;
 	}
+	.solutions_cars_container {
+		width: 75%;
+	}
+	.cars_foto_container {
+		width: 50%;	
+	}
+
+	.cars_foto_container img:first-child {	
+		top: -35%;	
+	}
+	.cars_foto_container img:nth-child(2) {	
+		top: 15%;
+		left: 30%;	
+	}
+
+	.cars_foto_container img:nth-child(3) {
+		top: 75%;
+		left: -35%;		
+	}
+
 }
 
 /* Large Devices, Wide Screens */
@@ -179,24 +198,6 @@
     	top: auto;    
     	left: 60%;
     	bottom: 0%
-	}
-	.cars_foto_container {
-		width: 50%;
-		padding-left: 10px;
-	}
-
-	.cars_foto_container img:first-child {	
-		top: -35%;	
-	}
-	.cars_foto_container img:nth-child(2) {	
-		top: 15%;
-		left: -5%;	
-	}
-
-	.cars_foto_container img:nth-child(3) {
-		top: 65%;
-		left: -35%;
-		z-index: 2;
 	}
 
 }
