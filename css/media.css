@@ -21,25 +21,25 @@
 		padding-top: 20px;
 		-ms-align-items: center;
 		align-items: center;    	
-    	margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 
-    .solutions_link {
-    	padding: 20px 0;   
-    } 
+	.solutions_link {
+		padding: 20px 0;   
+	} 
 	
 	 .link_container {
-    	display: -webkit-flex;
-    	display: -moz-flex;
-    	display: -ms-flex;
-    	display: -o-flex;
-    	display: flex;
-    	margin: 0 auto;
-    }
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin: 0 auto;
+	}
 
-    .link_doc_text {
-    	padding: 5px 20px;
-    }
+	.link_doc_text {
+		padding: 5px 20px;
+	}
 
 	.vr_development{
 		-webkit-background-size: cover;
@@ -48,16 +48,16 @@
 		background-color: #101010;
 	}
 
-    .vr_develop_container {
-    	max-width: 65%;    	
-    }
+	.vr_develop_container {
+		max-width: 65%;    	
+	}
 
-    .slider_text p {    	
-    	padding: 20px 0px;
-    }
+	.slider_text p {    	
+		padding: 20px 0px;
+	}
 
-    .slider_img img {  
-    	margin: 0 auto;
+	.slider_img img {  
+		margin: 0 auto;
 	}
 	.solutions_cars_container {
 		width: 75%;
@@ -98,7 +98,7 @@
 	}
 
 	.contact_form {    
-    width: 100%;
+	width: 100%;
 	}
 
 	.contact_form {
@@ -118,14 +118,14 @@
 	}
 
 	.lage_text {
-    	max-width: 60%;
+		max-width: 60%;
 	}
 
 	.services_text {
-    	justify-content: space-around;
-    }
+		justify-content: space-around;
+	}
 
-    .lange_text {
+	.lange_text {
 		max-width:100%;
 		text-align: center;
 		margin: 10px auto 0;
@@ -141,26 +141,26 @@
 	}
 
 	 .lange_text {
-	 	max-width: 90%;		
+		max-width: 90%;		
 		text-align: center;				
 	}
 
 	.solutions_text_left { 
-    	width: 90%;
-    }
-	  	
+		width: 90%;
+	}
+		
 	.solutions_cars_right {
 		width: 100%;
 		align-items: center;
 	}
 
 	.solutions_right_text {		    
-    	width: 80%;
+		width: 80%;
 	}
 
 	.vr_development {
-	    background-size: auto;
-	    background-position: right;
+		background-size: auto;
+		background-position: right;
 	}
 
 	.vr_develop_container {		
@@ -196,15 +196,15 @@
 	}
 
 	button.slick-arrow.arrow_prev {    
-    	top: auto; 
-    	left: 30%;
-    	bottom: 0%
+		top: auto; 
+		left: 30%;
+		bottom: 0%
 	}
 
 	button.slick-arrow.arrow_next {  
-    	top: auto;    
-    	left: 60%;
-    	bottom: 0%
+		top: auto;    
+		left: 60%;
+		bottom: 0%
 	}
 
 	.cars_foto_container {
@@ -213,16 +213,16 @@
 
 	.cars_foto_container img:first-child {	
 		top: -15%;
-    	left: 10%;
+		left: 10%;
 	}
 	.cars_foto_container img:nth-child(2) {	
-	    top: 25%;
-    	left: 60%;;	
+		top: 25%;
+		left: 60%;;	
 	}
 
 	.cars_foto_container img:nth-child(3) {
-	    top: 70%;
-    	left: 10%;		
+		top: 70%;
+		left: 10%;		
 	}
 
 }
@@ -260,7 +260,7 @@
 	}
 	
 	 .lange_text {
-	 	max-width: 90%;		
+		max-width: 90%;		
 		text-align: center;
 				
 	}
@@ -280,7 +280,7 @@
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-	  	justify-content: space-around;
+		justify-content: space-around;
 		-ms-align-items: center;
 		align-items: center;
 	}
@@ -299,15 +299,15 @@
 	}
 
 	button.slick-arrow.arrow_prev {    
-    	top: auto; 
-    	left: 25%;
-    	bottom: 0%
+		top: auto; 
+		left: 25%;
+		bottom: 0%
 	}
 
 	button.slick-arrow.arrow_next {  
-    	top: auto;    
-    	left: 60%;
-    	bottom: 0%
+		top: auto;    
+		left: 60%;
+		bottom: 0%
 	}
 
 	.solutions_cars {
@@ -325,18 +325,18 @@
 	}
 
 	.cars_foto_container img:first-child {
-    	top: 5%;
-    	left: -25%;
+		top: 5%;
+		left: -25%;
 	}
 
 	.cars_foto_container img:nth-child(2) {
-    	top: 35%;
-    	left: 50%;
+		top: 35%;
+		left: 50%;
 	}
 
 	.cars_foto_container img:nth-child(3) {
-    	top: 70%;
-    	left: -25%;
+		top: 70%;
+		left: -25%;
 	}
 	
 }
@@ -376,7 +376,7 @@
 	}	
 
 	.menu_bottom_create {	
-    	align-items: center
+		align-items: center
 	}
 	
 	.create_video a {			
@@ -408,11 +408,11 @@
 	}
 	
 	.contacts {    
-    	padding-top: 10px;
+		padding-top: 10px;
 	}
 
 	.contact_form {		
-    	width: 100%;
+		width: 100%;
 	}
 
 	.contact_us {
@@ -425,7 +425,7 @@
 	}
 
 	.informations_title {
-    padding: 10px 0;
+	padding: 10px 0;
 	}
 
 	.info {
@@ -471,7 +471,7 @@
 	}
 	
 	.slider_img img {
-    	max-width: 100%;
+		max-width: 100%;
 	}
 
 	.vr_development {
@@ -507,16 +507,16 @@
 		position: absolute;
 		transform: rotate(90deg); 
 		left: 43%;
-    	top: auto;
-    	bottom: 5%;
+		top: auto;
+		bottom: 5%;
 
 	}
 
 	.menu_right_create span {		
 		padding-bottom: 30px;
-   		position: absolute;    
-    	bottom: 10%;
-    	left: 35%;
+		position: absolute;    
+		bottom: 10%;
+		left: 35%;
 	}	
 
 
@@ -559,7 +559,7 @@
 	}
 
 	.contact {
-	    padding: 10px 15px;
+		padding: 10px 15px;
 	}
 
 	.contacts {		
@@ -572,12 +572,12 @@
 
 	.contact_us {
 		padding: 0 10px;
-    	min-width: 100%;	
+		min-width: 100%;	
 	}
 
 	.foto_bg_left {
-    	width: 100%;
-    	min-height: 500px;
+		width: 100%;
+		min-height: 500px;
 	}
 
 	.contact_us h2 {
@@ -590,9 +590,9 @@
 	}
 
 	.contact_form {
-    	flex-wrap: wrap;
-    	justify-content: space-around;
-    	min-width: 100%;    	
+		flex-wrap: wrap;
+		justify-content: space-around;
+		min-width: 100%;    	
 	}
 
 	.contact_mess {
@@ -601,14 +601,14 @@
 
 	.button_imputs {
 		padding-right: 10px;
-    	padding-bottom: 30px;
+		padding-bottom: 30px;
 	}
 
 	.contact_us h2, .informations h2 {    
-    	font-size: 35px;
+		font-size: 35px;
 	}
 
-    .informations {
+	.informations {
 		padding-left: 20px;
 	}
 
@@ -623,9 +623,9 @@
 	}
 
 	.service_text_bottom p {
-    	font-size: 16px;
-    	line-height: normal;
-    	max-width: 100%;
+		font-size: 16px;
+		line-height: normal;
+		max-width: 100%;
 	}
 
 	.small_text {
@@ -633,13 +633,13 @@
 		padding-bottom: 10px;
 	}
 	.vr_develop_container h2 {	 
-	    font-size: 32px;
+		font-size: 32px;
 	}
 	
 	button.slick-arrow.arrow_prev {
-    	top: auto;
-    	left: 10%;
-    	bottom: 0%;
+		top: auto;
+		left: 10%;
+		bottom: 0%;
 	}
 
 	.cars_foto_container {
@@ -647,8 +647,8 @@
 	}
 
 	.cars_foto_container img:nth-child(2) {
-    	top: 25%;
-    	left: 30%;
+		top: 25%;
+		left: 30%;
 	}
 
 	.link_container a span.link_doc_text span:first-child {
@@ -656,22 +656,22 @@
 	}
 	
 	.cars_foto_container img:first-child {
-    	top: 5%;
-    	left: -30%;
+		top: 5%;
+		left: -30%;
 	}
 
 	.cars_foto_container img:nth-child(2) {
-    	top: 25%;
-    	left: 15%;
+		top: 25%;
+		left: 15%;
 	}
 
 	.cars_foto_container img:nth-child(3) {
-    	top: 50%;
-    	left: -25%;
+		top: 50%;
+		left: -25%;
 	}
 
 	.link_doc_text {
-    	padding: 5px 10px;
+		padding: 5px 10px;
 	}
 
 }
