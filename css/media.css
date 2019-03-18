@@ -409,7 +409,9 @@
 		background-color: #101010;
 	}
 
-
+	.vr_develop_container {
+		margin: 0 auto;
+	}
 
 	.vr_develop_container h2 {	 
 	    font-size: 35px;
