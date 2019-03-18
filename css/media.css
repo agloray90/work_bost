@@ -316,7 +316,7 @@
 		flex-direction: column;
 	}
 	.cars_foto_container {
-		width: 100%;
+		width: 70%;
 	}
 
 	.cars_foto_container img:first-child {
