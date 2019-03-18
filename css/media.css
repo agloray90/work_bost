@@ -310,27 +310,29 @@
     	bottom: 0%
 	}
 	.solutions_cars {
-		justify-content: center;
+		display: block;
 	}
 	.solutions_cars_container {
 		flex-direction: column;
+		margin: 0 auto;
 	}
 	.cars_foto_container {
 		width: 70%;
+		height: 500px;
 	}
 
 	.cars_foto_container img:first-child {
-    	top: -35%;
+    	top: 5%;
     	left: -25%;
 	}
 
 	.cars_foto_container img:nth-child(2) {
     	top: 25%;
-    	left: -5%;
+    	left: 50%;
 	}
 
 	.cars_foto_container img:nth-child(3) {
-    	top: 70%;
+    	top: 75%;
     	left: -25%;
 	}
 	
@@ -370,8 +372,7 @@
 		color: #fff;
 	}	
 
-	.menu_bottom_create {		
-		/*flex-direction: column;*/
+	.menu_bottom_create {	
     	align-items: center
 	}
 
