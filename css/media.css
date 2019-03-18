@@ -486,12 +486,12 @@
 	}
 
 	.vr_develop_container h2 {	 
-	    font-size: 35px;
+		font-size: 35px;
 	}
 	
 	.cars_foto_container img:nth-child(3) {
-    top: 45%;
-    left: -25%;
+    	top: 45%;
+    	left: -25%;
 	}
 
 }
@@ -647,6 +647,15 @@
     top: auto;
     left: 10%;
     bottom: 0%;
+	}
+
+	.cars_foto_container {
+		width: 85%;
+	}
+
+	.cars_foto_container img:nth-child(2) {
+    top: 25%;
+    left: 30%;
 	}
 
 }
