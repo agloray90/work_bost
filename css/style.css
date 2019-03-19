@@ -529,7 +529,8 @@ section {
 	font-size: 16px;
 	font-family: 'Arial', sans-serif;
 	width: 45%;
-	line-height: 30px; 
+	line-height: 30px;
+	margin-bottom: 30px; 
 }
 
 .solutions_link {
