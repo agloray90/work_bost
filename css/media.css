@@ -60,7 +60,7 @@
 		margin: 0 auto;
 	}
 	.solutions_cars_container {
-		width: 75%;
+		width: 85%;
 		padding-left: 40px;
 	}
 
@@ -143,6 +143,10 @@
 	 .lange_text {
 		max-width: 90%;		
 		text-align: center;				
+	}
+
+	.solutions_cars_container {
+		width: 75%;		
 	}
 
 	.solutions_text_left { 
