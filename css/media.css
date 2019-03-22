@@ -19,8 +19,7 @@
 	.solutions_right {
 		width: 80%;
 		padding-top: 20px;
-		-ms-align-items: center;
-		align-items: center;    	
+		-ms-align-items: center;		   	
 		margin-bottom: 20px;
 	}
 
