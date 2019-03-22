@@ -61,7 +61,6 @@
 	}
 	.solutions_cars_container {
 		width: 85%;
-		padding-left: 40px;
 	}
 
 	.solutions_right_text {
@@ -156,12 +155,13 @@
 	.solutions_cars_right {
 		width: 100%;
 		align-items: center;
+		padding-top: 20px;
+	
 	}
 
 	.solutions_right_text {		    
 		width: 80%;
-		padding-top: 20px;
-	}
+	}	
 
 	.vr_development {
 		background-size: auto;
@@ -476,7 +476,7 @@
 	}
 
 	.link_container {
-		margin-left: -20px;
+		margin-left: 20px;
 	}
 	
 	.slider_img img {
@@ -617,10 +617,6 @@
 		font-size: 35px;
 	}
 
-	.informations {
-		padding-left: 20px;
-	}
-
 	.lange_text {
 		font-size: 25px;
 		line-height: 25px;
@@ -644,6 +640,7 @@
 
 	.vr_develop_container h2 {	 
 		font-size: 32px;
+		padding-bottom: 10px;
 	}
 	
 	button.slick-arrow.arrow_prev {
@@ -669,12 +666,13 @@
 	
 	.solutions_list li {
     	font-size: 14px;
-    	padding-left: 0px;
+    	padding-left: 55px;
 	}
 	
 
 	.solutions_list li:before {  
-		width: 40px;	
+		width: 40px;
+		left: 0;	
 	}
 	
 	.cars_foto_container img:first-child {
@@ -684,7 +682,7 @@
 
 	.cars_foto_container img:nth-child(2) {
 		top: 25%;
-		left: 10%;
+		left: 9%;
 	}
 
 	.cars_foto_container img:nth-child(3) {
