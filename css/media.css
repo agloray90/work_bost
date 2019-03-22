@@ -677,7 +677,7 @@
 	
 	.cars_foto_container img:first-child {
 		top: 5%;
-		left: -25%;
+		left: -9%;
 	}
 
 	.cars_foto_container img:nth-child(2) {
@@ -687,7 +687,7 @@
 
 	.cars_foto_container img:nth-child(3) {
 		top: 45%;
-		left: -25%;
+		left: -9%;
 	}
 
 	.link_doc_text {
