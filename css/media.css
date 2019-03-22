@@ -287,7 +287,13 @@
 		justify-content: space-around;
 		-ms-align-items: center;
 		align-items: center;
+		margin-top: 20px;
 	}
+
+	.solutions_right {
+    	width: 100%;
+    	margin-left: 0;
+    }	
 
 	.solutions_text_left {
 		line-height: normal;
@@ -310,7 +316,7 @@
 
 	button.slick-arrow.arrow_next {  
 		top: auto;    
-		left: 60%;
+		left: 55%;
 		bottom: 0%
 	}
 
@@ -329,12 +335,13 @@
 		
 	}
 
-	.cars_foto_container img:first-child,
-	.cars_foto_container img:nth-child(2),
-	.cars_foto_container img:nth-child(3) {
+	.solutions_cars_container .cars_foto_container img {
 		position: relative;
+		padding: 5px;
 	}
 	
+	
+
 	.cars_foto_container img:nth-child(2){
 		left: -15%;
 	}
@@ -475,8 +482,9 @@
 		padding-left: 12px;
 	}
 
-	.link_container {
-		margin-left: 20px;
+	.link_container {	
+		margin-left: 25px;
+
 	}
 	
 	.slider_img img {
@@ -645,7 +653,7 @@
 	
 	button.slick-arrow.arrow_prev {
 		top: auto;
-		left: 20%;
+		left: 25%;
 		bottom: 0%;
 	}
 
@@ -676,18 +684,18 @@
 	}
 	
 	.cars_foto_container img:first-child {
-		top: 5%;
-		left: -9%;
+		top: auto;
+		left: auto;
 	}
 
 	.cars_foto_container img:nth-child(2) {
-		top: 25%;
-		left: 9%;
+		top: auto;
+		left: auto;
 	}
 
 	.cars_foto_container img:nth-child(3) {
-		top: 45%;
-		left: -9%;
+		top: auto;
+		left: auto;
 	}
 
 	.link_doc_text {
