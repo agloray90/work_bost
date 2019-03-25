@@ -16,16 +16,16 @@
 		padding: 20px 10px;
 	}
 
+	.solutions_link {
+    padding-bottom: 20px;
+	}
+
 	.solutions_right {
 		width: 80%;
 		padding-top: 20px;
 		-ms-align-items: center;		   	
 		margin-bottom: 20px;
 	}
-
-	.solutions_link {
-		padding: 20px 0;   
-	} 
 	
 	 .link_container {
 		display: -webkit-flex;
@@ -160,6 +160,7 @@
 
 	.solutions_right_text {		    
 		width: 80%;
+		padding-bottom: 20px;
 	}	
 
 	.vr_development {
@@ -290,7 +291,7 @@
 	}
 
 	.solutions_right {
-    	width: 100%;
+    	width: 80%;
     	margin-left: 0;
     }	
 
@@ -324,7 +325,7 @@
 	}
 
 	.solutions_cars_container {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		margin: 0 auto;
 	}
 
@@ -468,12 +469,12 @@
     	left: -15%;
 	}
 
-	.solutions_link {
-		padding-bottom: 20px;
-	}
-
 	.solutions_list {
 		margin-left: 0;
+	}
+
+	#list {
+		padding-top: 20px;
 	}
 
 	.solutions_list li {
@@ -671,6 +672,10 @@
 	}
 
 	
+	.solutions_right {
+    width: 100%;   
+	}
+
 	.solutions_list li {
     	font-size: 14px;
     	padding-left: 55px;
